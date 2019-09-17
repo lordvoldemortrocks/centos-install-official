@@ -1,0 +1,6 @@
+#
+label kickstart
+menu label ^Kickstart Installation of CentOS 7.6.1810
+kernel vmlinuz
+append initrd=initrd.img inst.stage2=hd:LABEL=CentOS\x207\x20x86_64 inst.ks=hd:LABEL=CentOS\x207\x20x86_64\/ks.cfg quiet
+#
